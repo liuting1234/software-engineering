@@ -1,0 +1,16 @@
+*{margin:0px; padding:0px;}  
+body{margin:0px; padding:0px; font-size:12px; font-family:'Microsoft Yahei';}  
+a{ text-decoration:none;}  
+.carbtn{float:left;padding:0 20px; height:35px; background:#096; color:#FFF; font-size:14px; text-align:center; line-height:35px; margin-top:10px; border-radius:3px;}  
+.carbtn:hover{color:#FFF;}  
+.carbtn.bg{ background:#F63; margin-left:10px;}  
+  
+.mask{background:#000; opacity:0.2; position:absolute; left:0px; top:0px; z-index:1000; width:100%; height:100%; display:none; }  
+.alertBox{width:404px; height:170px; position:fixed; background:#FFF;z-index:1001; left:50%; margin-left:-202px; top:0px; display:none;opacity:0; }  
+.alertBox .altit{height:35px; line-height:35px; background:#e7fbe6;}  
+.alertBox .altit h2{float:left; padding-left:12px; font-size:14px; color:#000000;}  
+.alertBox .altext{padding:20px; line-height:22px; font-size:14px;}  
+.alertBox .altext b{ font-size:18px; color:#e00471}  
+.alertBox .albtn{ text-align:center; width:100%;}  
+.alertBox .albtn a{ float:none; display:inline-block; margin:0 10px;}  
+.alertBox .albtn a.bg{ background:#e00471;}  

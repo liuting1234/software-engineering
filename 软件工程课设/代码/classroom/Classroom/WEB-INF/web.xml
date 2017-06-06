@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<servlet>
+		<servlet-name>FindClassroom</servlet-name>
+		<servlet-class>servlet.FindClassroom</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Useroom</servlet-name>
+		<servlet-class>servlet.Useroom</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>servlet.Login</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Findapply</servlet-name>
+		<servlet-class>servlet.Findapply</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Chuli</servlet-name>
+		<servlet-class>servlet.Chuli</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Result</servlet-name>
+		<servlet-class>servlet.Result</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FindClassroombytj</servlet-name>
+		<servlet-class>servlet.FindClassroombytj</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Delresult</servlet-name>
+		<servlet-class>servlet.Delresult</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FindUseRoom</servlet-name>
+		<servlet-class>servlet.FindUseRoom</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>FindYdRoom</servlet-name>
+		<servlet-class>servlet.FindYdRoom</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Regist</servlet-name>
+		<servlet-class>servlet.Regist</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>Active</servlet-name>
+    <servlet-class>email.Active</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CxReply</servlet-name>
+    <servlet-class>servlet.CxReply</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Froom</servlet-name>
+    <servlet-class>servlet.Froom</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Forbiduse</servlet-name>
+    <servlet-class>servlet.Forbiduse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addroom</servlet-name>
+    <servlet-class>servlet.Addroom</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>delroom</servlet-name>
+    <servlet-class>servlet.delroom</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Forget</servlet-name>
+    <servlet-class>email.Forget</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>FindClassroom</servlet-name>
+		<url-pattern>/FindClassroom</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Useroom</servlet-name>
+		<url-pattern>/user/common/useroom</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Findapply</servlet-name>
+		<url-pattern>/admin/findapply</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Chuli</servlet-name>
+		<url-pattern>/admin/chuli</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Result</servlet-name>
+		<url-pattern>/admin/result</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FindClassroombytj</servlet-name>
+		<url-pattern>/FindClassroombytj</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Delresult</servlet-name>
+		<url-pattern>/admin/delresult</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FindUseRoom</servlet-name>
+		<url-pattern>/common/FindUseRoom</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FindYdRoom</servlet-name>
+		<url-pattern>/public/FindYdRoom</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Regist</servlet-name>
+		<url-pattern>/regist</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Active</servlet-name>
+    <url-pattern>/public/active</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/user/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CxReply</servlet-name>
+    <url-pattern>/common/CxReply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Froom</servlet-name>
+    <url-pattern>/admin/froom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Forbiduse</servlet-name>
+    <url-pattern>/admin/forbiduse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addroom</servlet-name>
+    <url-pattern>/admin/addroom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delroom</servlet-name>
+    <url-pattern>/admin/delroom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Forget</servlet-name>
+    <url-pattern>/public/forget</url-pattern>
+  </servlet-mapping>
+	<filter>
+		<filter-name>Myfilter</filter-name>
+		<filter-class>filter.Myfilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>Myfilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+</web-app>
